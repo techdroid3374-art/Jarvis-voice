@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JARVIS - Personal AI</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle, #102b4d, #020611 70%);
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    h1 {
+      font-size: 42px;
+      letter-spacing: 8px;
+      color: #00cfff;
+      text-shadow: 0 0 20px #00aaff;
+    }
+    p { color: #a9dff5; }
+    .orb {
+      width: 150px;
+      height: 150px;
+      border: 3px solid #00cfff;
+      border-radius: 50%;
+      box-shadow: 0 0 35px #008cff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 55px;
+      margin: 25px;
+    }
+    .status {
+      color: #00d9ff;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>J.A.R.V.I.S</h1>
+  <div class="orb">◉</div>
+  <h2>Your Personal AI Assistant</h2>
+  <p>I'm ready to assist you.</p>
+  <div class="status">Initializing JARVIS...</div>
+
+  <script
+    src="https://cloud.livekit.io/embed-popup.js"
+    data-lk-agent="CA_jKb7uciGfXDT"
+    data-lk-color="#00cfff"
+    data-lk-theme="dark"
+  ></script>
+</body>
+</html>
